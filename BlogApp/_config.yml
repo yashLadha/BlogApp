@@ -24,7 +24,6 @@ github_username:  yashLadha
 
 # Build settings
 markdown: kramdown
-theme: minima
 gems:
   - jekyll-feed
 exclude:
