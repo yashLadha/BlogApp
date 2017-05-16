@@ -4,5 +4,7 @@ title: Blog App
 ---
 
 <h1>Welcome to the Blog App</h1>
-<button class="btn"><span><a href="/posts/write">Write Posts</a></span></button>
-<button class="btn"><span><a href="/posts/read">Read Posts</a></span></button>
+<form>
+  <input class="btn" type="button" onClick="window.location.href='/posts/write'" value="Write Posts"/>
+  <input class="btn" type="button" onClick="window.location.href='/posts/read'" value="Read Posts"/>
+</form>
