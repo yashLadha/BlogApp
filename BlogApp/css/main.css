@@ -1,0 +1,98 @@
+body {
+  margin: 60px auto;
+  width: 80%;
+  background-color: lightblue;
+}
+nav ul, footer ul {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  padding: 0px;
+  list-style: none;
+  font-weight: bold;
+}
+nav ul li, footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+  color: #ff0066 !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+h1 {
+  font-size: 3em;
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  color: #333;
+}
+footer {
+  border-top: 1px solid #d5d5d5;
+  font-size: .8em;
+}
+
+ul.posts { 
+  margin: 20px auto 40px; 
+  font-size: 1.5em;
+}
+
+ul.posts li {
+  list-style: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+  height: 190px;
+  width: 190px;
+}
+
+/* Just for learning purpose */
+.parallax {
+  /* The image used */
+  background-image: url('Images/keep-calm-and-try-coding.png');
+
+  /* Set a specific height*/
+  height: 1024px;
+  width: auto;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.input {
+  font-size: 16px;
+  padding: 0px 16px;
+  height: 50px;
+  width: auto;
+  border-radius: 10%;
+  border-color: #E01C1C;
+}
+
+.btn {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  height: 36px;
+  color: #fff;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .15), 0 3px 1px -2px rgba(0, 0, 0, .20), 0 1px 5px 0 rgba(0, 0, 0, .12);
+  border: none;
+  padding: 0px 16px;
+  background: #FF5722 50%;
+  background-size: 100%;
+}
+
+.btn:active {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.50);
+  background: -webkit-radial-gradient(circle, #e64a19 10%, #FF5722 10%) 50% no-repeat;
+  background: radial-gradient(circle, #e64a19 10%, #FF5722 1%) 50% no-repeat;
+  background-size: 1020%;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}

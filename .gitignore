@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 _site
 .sass-cache
 .jekyll-metadata
+=======
+*~
+.swp
+.idea
+>>>>>>> 48acef22fca36a8db7127a9b26d8ed39704ecaae
