@@ -24,6 +24,7 @@ github_username:  yashLadha
 
 # Build settings
 markdown: kramdown
+comments: true
 gems:
   - jekyll-feed
 exclude:
