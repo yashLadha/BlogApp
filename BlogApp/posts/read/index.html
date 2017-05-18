@@ -1,9 +1,16 @@
 ---
 layout: default
 title : Read Posts
+comments: false
 ---
-<ul>
+<div class="blurb">
   {% for post in site.posts %}
-  <li><a href={{ post.url }}>{{ post.title }}</a></li>
+  <div class="card" onClick="window.location.href='{{ post.url }}'">
+    <div class="container">
+      <h3 style="padding-top: 12px;"><b>{{ post.title }}</b></h3>
+      <p style="color: #FFEBEE;">  {{ post.description }} </p>
+    </div>
+  </div>
+  <br>
   {% endfor %}
-</ul>
+</div>
